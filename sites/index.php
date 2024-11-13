@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['isLoggedIn']) || $_SESSION['isLoggedIn'] !== true) {
+    header('Location: login.php'); // Redirect to login page if not logged in
+    exit;
+}
+
+//echo "Welcome, " . $_SESSION['username'] . "! Your role is: " . $_SESSION['role'] . " and your email is: " . $_SESSION['email'];
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +27,30 @@
 </head>
 
 <body class="bg-neutral-800">
-    <header id="header"></header>
+<header class="bg-neutral-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <a class="flex justify-center"> 
+        <img src="../imgs/logoweb.png" class="w-16 h-16 rounded-lg mb-6">
+        <h1 class="text-3xl font-bold mt-1 ml-2">Supernatural</h1>
+        </a>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="index.php" class="hover:text-pink-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-pink-300">About</a></li>
+                <li><a href="contact.html" class="hover:text-pink-300">Contact</a></li>
+                <?php
+    // Check if the user is logged in and has the 'admin' role
+    if (isset($_SESSION['isLoggedIn']) && $_SESSION['isLoggedIn'] === true && $_SESSION['role'] === 'admin') {
+        // Show this <li> only for admin users
+        echo '<li><a href="admin-panel.php" class="hover:text-pink-300">Admin Dashboard</a></li>';
+    }
+    ?>
+                <li><a href="logout.php" class="hover:text-pink-300">Logout</a></li>
+                </ul>
+        </nav>
+
+    </div>
+</header>
     <main class="flex flex-grow container mx-auto p-4">
         <!-- Apartado para el reproductor básico -->
         <div class="flex-grow bg-slate-200 p-4 mx-4 rounded shadow bg-opacity-50">

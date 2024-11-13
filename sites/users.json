@@ -1,0 +1,68 @@
+[
+    {
+        "username": "que viene123",
+        "password": "$2y$10$OW86Cw9p\/z5ZSCqYGv54UuqPsuIBX6J3L1EcAv4aMoYKwyWxxiwd6",
+        "email": "queviene@gmail.com",
+        "role": "admin"
+    },
+    {
+        "username": "rabanabo",
+        "password": "$2y$10$ckJ7KnlHgN8GnBsfZywTfOOrHeYHaXBWvPcVzx0q9ffqxy31JW3Cm",
+        "email": "rabanabo@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "admin",
+        "password": "$2y$10$SC\/X2QZQgNtDGaL4b7CQy.lE1kwbS7bhqoTyXq49mycTfWsKmak..",
+        "email": "admin@gmail.com",
+        "role": "admin"
+    },
+    {
+        "username": "quenoviene",
+        "password": "$2y$10$Q7xo5w1L1PNHMLnjOEAXEeGqGGkqy56pDahZBgSpMX9UXW3p58dLG",
+        "email": "quenoviene@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "mentefria",
+        "password": "$2y$10$.LI9LIYirRtYVjd5dmb2Q.LlXJlzn3mHTBW.yBZg2Z2XxV4C\/fN\/G",
+        "email": "mentefria@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "123",
+        "password": "$2y$10$9ZQMq3tFcsW32PYWLjSRKOpMnLada9i8ntkiVXbzUzUOm2B6BIG66",
+        "email": "admain@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "adminaaaaa",
+        "password": "$2y$10$KyzRi6xQsdw9YZqXRcoSEekCgzP\/\/4W4RIic.zT7Yr.O3nfYgTcPC",
+        "email": "quenoaaaaviene@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "que viene",
+        "password": "$2y$10$6EPerxomOfXh4t3EQbGS0OYeBLNza3r05eNZaRLeexnJcx6pwq2Aq",
+        "email": "rabanab123o@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "que viene123",
+        "password": "$2y$10$6XNGuCugapVMnOh3hlCjp.dzogbDcApPQPuV8PJszu6rlEDshCkZO",
+        "email": "raba123231321nabo@gmail.com",
+        "role": "admin"
+    },
+    {
+        "username": "9pu8sk98321321",
+        "password": "$2y$10$8sxqInq3v.RNK1LkS6tcsOSr7mfiQG73i9qjy5Xq8hOw4QyhYa7kS",
+        "email": "raban321132213321213abo@gmail.com",
+        "role": "user"
+    },
+    {
+        "username": "Pro: Lov: Ad",
+        "password": "$2y$10$wLamMp6SIHzhWqBfp66iyOILtCTN0Cs1vy5l2.WDK0Zwg4Lwf6i\/C",
+        "email": "copon@gmail.com",
+        "role": "admin"
+    }
+]
