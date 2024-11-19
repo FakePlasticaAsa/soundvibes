@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif; 
+    transition: background-color 2s ease; 
+}
+
+button {
+    padding: 20px 30px;
+    background-color: #ff0077; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    border-radius: 5px; 
+    margin: 20px;
+    font-size: 20px;
+}
+
+.radio {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: row; 
+}
+
+.radio label {
+    padding: 10px;
+    font-size: 35px; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 2s; 
+    margin: 0 15px; 
+}
+
+.clickable {
+    color: white; 
+    font-size: 40px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.clickable:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    padding-top: 3%;
+}
+
+.hidden-radio {
+    display: none;
+}
+
+.video-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
